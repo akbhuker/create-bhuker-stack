@@ -1,6 +1,6 @@
 {
   "name": "create-bhuker-stack",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "CLI to scaffold an industry-standard Node.js backend",
   "keywords": [
     "nodejs",
