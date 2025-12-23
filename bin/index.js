@@ -7,10 +7,10 @@ const pkg = require('../package.json');
 const program = new Command();
 
 program
-    .name('create-bhuker-stack')
+    .name('create-node-mongo-backend')
     .version(pkg.version)
     .argument('<project-name>', 'Name of the project')
-    .description('Create an industry-standard Node.js backend')
+    .description('Scaffold a production-ready Node.js + MongoDB backend')
     .action(init);
 
 program.parse();

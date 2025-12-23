@@ -1,43 +1,48 @@
-# 🚀 create-bhuker-stack
+# 🚀 create-node-mongo-backend
 
-A **zero-config CLI** to scaffold an **industry-standard Node.js backend** using **Express.js + MongoDB**, built for **real-world production use**.
+A **zero-config CLI tool** to create a **production-ready Node.js + MongoDB backend**
+using **Express.js**, with a clean and scalable folder structure.
 
-Create a clean, scalable backend project in **one command**.
-
----
-
-## ✨ Why create-bhuker-stack?
-
-Backend developers waste time repeatedly setting up:
-
-- Express server boilerplate
-- MongoDB connection
-- Folder architecture
-- Environment configs
-- Error handling
-- Dev scripts
-
-**create-bhuker-stack** solves this by generating a **production-ready backend structure** that follows **industry best practices** from day one.
+Stop copying old projects. Start clean. Start fast.
 
 ---
 
-## 🧱 What It Generates
+## 🤔 What is this?
 
-```text
-my-app/
-├── src/
-│   ├── app.js              # Express app setup
-│   ├── server.js           # Server entry point
-│   ├── config/             # DB & environment configs
-│   ├── routes/             # API routes
-│   ├── controllers/        # Controllers
-│   ├── models/             # Mongoose models
-│   ├── services/           # Business logic
-│   ├── middlewares/        # Error & auth middleware
-│   ├── queues/             # Queue definitions (ready)
-│   ├── workers/            # Background workers
-│   └── utils/              # Helpers & utilities
-├── .env.example
-├── package.json
-└── README.md
+`create-node-mongo-backend` is a **CLI scaffolding tool** that generates a complete
+backend project with:
+
+- Express server setup
+- MongoDB (Mongoose) connection
+- Environment configuration
+- Clean, industry-standard folder structure
+- Ready for scaling (queues, workers, services)
+
+All in **one command**.
+
+---
+
+## 🎯 Who is this for?
+
+This tool is for:
+
+- Backend developers
+- Node.js / Express developers
+- Startups & SaaS teams
+- Anyone tired of rewriting backend boilerplate
+
+If you usually:
+
+> “Copy an old backend project and clean it…”
+
+This tool is for you.
+
+---
+
+## ⚡ Quick Start (Recommended)
+
+No installation required.
+
+```bash
+npx create-node-mongo-backend my-app
 ```
